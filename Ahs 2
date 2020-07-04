@@ -30,13 +30,16 @@ sh Peraturan Utama
 fi
 
 if [ $nomor = 2 ] || [ $nomor = 02 ]
-then
-clear
-echo " INSTALL Daftar-shift.. " | lolcat
-pkg install bash 
-https://github.com/Ahstermux/Daftar
+echo " Install YANG MAU DAFTAR.. " | lolcat
+
+pkg  install bash
+
+git clone https://github.com/Ahstermux/Daftar-shift
+
 cd Daftar
-sh Daftar
+
+php Daftar
+
 fi
 
 if [ $nomor = 3 ] || [ $nomor = 03 ]
