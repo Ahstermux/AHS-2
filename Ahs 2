@@ -21,7 +21,7 @@ read nomor
 if [ $nomor = 1 ] || [ $nomor = 01 ]
 then
 clear
-echo " INSTALL Peraturan.. " | lolcat
+echo " INSTALL JADWAL SHIFT.. " | lolcat
 sleep 1
 pkg install bash 
 https://github.com/Ahstermux/Peraturan
@@ -30,22 +30,19 @@ sh Peraturan Utama
 fi
 
 if [ $nomor = 2 ] || [ $nomor = 02 ]
-echo " Install YANG MAU DAFTAR.. " | lolcat
-
-pkg  install bash
-
-git clone https://github.com/Ahstermux/Daftar-shift
-
+then
+clear
+echo " INSTALL YANG DAFTAR.. " | lolcat
+pkg install bash 
+https://github.com/Ahstermux/Daftar
 cd Daftar
-
-php Daftar
-
+sh Daftar
 fi
 
 if [ $nomor = 3 ] || [ $nomor = 03 ]
 then
 clear
-echo " INSTALL Rulle-3.. " | lolcat
+echo " INSTALL PERATURAN.. " | lolcat
 pkg install bash 
 https://github.com/Ahstermux/Rulle-3
 cd RULES
@@ -55,7 +52,7 @@ fi
 if [ $nomor = 4 ] || [ $nomor = 04 ]
 then
 clear
-echo " INSTALL KAS.. " | lolcat
+echo " INSTALL JADWAL KAS TEAM.. " | lolcat
 pkg install bash 
 https://github.com/Ahstermux/KAS
 cd Kas
