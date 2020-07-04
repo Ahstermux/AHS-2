@@ -23,7 +23,7 @@ then
 clear
 echo " Install Peraturan.. " | lolcat
 sleep 1
-pkg install bash -y
+pkg install bash 
 git clone https://github.com/Ahstermux/Peraturan
 cd Peraturan Utama
 sh Peraturan Utama
@@ -33,7 +33,7 @@ if [ $nomor = 2 ] || [ $nomor = 02 ]
 then
 clear
 echo " Install Daftar-shift.. " | lolcat
-pkg install bash -y
+pkg install bash 
 git clonehttps://github.com/Ahstermux/Daftar
 cd Daftar
 sh Daftar
@@ -43,7 +43,7 @@ if [ $nomor = 3 ] || [ $nomor = 03 ]
 then
 clear
 echo " Install Rulle-3.. " | lolcat
-pkg install bash -y
+pkg install bash 
 git clone https://github.com/Ahstermux/Rulle-3
 cd RULES
 sh RULES.sh
@@ -53,7 +53,7 @@ if [ $nomor = 4 ] || [ $nomor = 04 ]
 then
 clear
 echo " Install KAS.. " | lolcat
-pkg install bash -y
+pkg install bash 
 git clone https://github.com/Ahstermux/KAS
 cd Kas
 sh Kas
