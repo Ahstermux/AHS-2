@@ -2,11 +2,12 @@
 clear
 figlet AHS TEAM | lolcat
 echo "====================================================
+
 # AUTHOR  : A SETENGAH 12
 # TEAM    : CYBER AHS INDO
 # CONTACT : zainicahganteng246@gmail.com
+
 ====================================================" | lolcat 
-sleep1
 echo " PILIH NOMOR UNTUK MENADAPATKAAN INFORMASI : " | lolcat
 echo " [01] JADWAL SHIFT" | lolcat
 echo " [02] YANG MAU DAFTAR" | lolcat
